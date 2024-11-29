@@ -1,0 +1,9 @@
+<h2>Lista de Tareas</h2>
+<ul>
+  <app-componente-elemento
+    *ngFor="let tarea of tareas"
+    [tarea]="tarea"
+    (eliminar)="eliminarTarea($event)"
+    (alternar)="alternarTarea($event)">
+  </app-componente-elemento>
+</ul>

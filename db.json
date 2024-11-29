@@ -1,1 +1,6 @@
-{}
+{
+    "tareas": [
+      { "id": 1, "titulo": "Tarea 1","descripcion": "", "completado": false },
+      { "id": 2, "titulo": "Tarea 2","descripcion": "", "completado": false }
+    ]
+  }

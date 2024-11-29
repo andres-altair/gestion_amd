@@ -1,0 +1,5 @@
+<li>
+    <span [class.completada]="tarea.completada">{{ tarea.titulo }}</span>
+    <button (click)="onAlternar()">Toggle</button>
+    <button (click)="onEliminar()">Eliminar</button>
+  </li>
